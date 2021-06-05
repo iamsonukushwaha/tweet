@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tweet</title>
+    </head>
+    <style>
+        body {
+            text-align: center;
+            margin-top: 20px;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        #word {
+            border: 3px solid yellow;
+            padding: 10px auto;
+            margin: 10px;
+        }
+
+        @media only screen and (max-width: 440px) {
+            #word {
+                width: 300px;
+            }
+        }
+
+        @media only screen and (max-width: 640px) {
+            #word {
+                width: 400px;
+            }
+        }
+
+        #btn {
+            padding: 12px 24px;
+            letter-spacing: 2px;
+        }
+
+    </style>
+
+    <body>
+
+        <h1>Tweet</h1>
+        <textarea name="" id="word" cols="70" rows="10" placeholder="Write your tweet here!" oninput="count();"
+            autofocus></textarea>
+
+        <h3 id="out"></h3>
+        <button id="btn">Tweet</button>
+
+
+        <script src="./tweet.js"></script>
+    </body>
+
+</html>
