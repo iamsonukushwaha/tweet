@@ -11,35 +11,37 @@
         body {
             text-align: center;
             margin-top: 20px;
+            padding: 0;
         }
 
         #word {
             border: 3px solid yellow;
-            padding: 10px auto;
-            margin: 10px;
+            padding: 10px;
+            margin: 10px auto;
+            
         }
 
-        @media only screen and (max-width: 300px) {
-            #word {
-                width: 280px;
-            }
-        }
-
-        #btn {
-            padding: 12px 24px;
+        #twt {
+            text-decoration: none;
+            padding: 10px;
             letter-spacing: 2px;
+            border-radius: 6px;
+            background-color: blue;
+            display: none;
+            color: white;
         }
+
 
     </style>
 
     <body>
 
         <h1>Tweet</h1>
-        <textarea name="" id="word" cols="50" rows="10" placeholder="Write your tweet here!" oninput="count();"
-            autofocus></textarea>
+        <textarea name="" id="word" cols="25" rows="6" placeholder="Write your tweet here!" oninput="count();" autofocus></textarea>
 
         <h3 id="out"></h3>
-        <button id="btn">Tweet</button>
+        <a href="" target="_blank" rel="noopener noreferrer" id="twt">Tweet</a>
+        
 
 
         <script src="./tweet.js"></script>
