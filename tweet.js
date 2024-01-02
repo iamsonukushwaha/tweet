@@ -33,4 +33,4 @@ function count() {
     }
 }
 
-// https://twitter.com/intent/tweet?url=http://github.com/flyingsonu122/&text=Contributing%20on%20GitHub%20since%20June,%202019%20-%20142%20repos,%208%20stars,%2025%20forks,%207%20followers.%20&hashtags=Sonu
+// https://twitter.com/intent/tweet?url=http://github.com/iamsonukushwaha/&text=Contributing%20on%20GitHub%20since%20June,%202019%20-%20142%20repos,%208%20stars,%2025%20forks,%207%20followers.%20&hashtags=Sonu
